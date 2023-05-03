@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define g 9.8
 void bouyancy_menu();
 void formula1(double * ptr_F);
 void bouyancy() {
@@ -21,12 +22,12 @@ printf("(1) F=ρVg\n");
 }
 
 void formula1(double * ptr_F) {
-double F, ρ, V, g = 9.8; 
-printf("Bouyancy compute: F=ρVg(g=9.8N/kg)");
+double F, ρ, V;  
+printf("Bouyancy compute: F=ρVg(g=9.8N/kg)\n");
 printf("please input the ρ:");
-scanf("%f", &ρ);
+scanf("%lf", &ρ);
 printf("please input the V:");
-scanf("%f", &V);
+scanf("%lf", &V);
 F = ρ * V * g;
 *ptr_F = F;
 }
