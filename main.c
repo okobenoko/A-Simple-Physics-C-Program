@@ -8,6 +8,7 @@ int mode;
 
 printf("This is a simple physics program\n");
 printf("Please select a physical quantity to compute\n");
+printf("Notice:This program uses international units for calculations\n");
 
 main_menu();
 

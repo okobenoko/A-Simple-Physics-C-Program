@@ -13,7 +13,7 @@ bouyancy_menu();
 
 scanf("%d", &number_formula);
 switch (number_formula) {
-    case 1: formula1(&F_Bouyancy); printf("%f", F_Bouyancy);
+    case 1: formula1(&F_Bouyancy); printf("%f N", F_Bouyancy);
   }
 }
 
