@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define g 9.8
+void bouyancy();
 void bouyancy_menu();
 void formula1(double * ptr_F);
 void bouyancy() {
